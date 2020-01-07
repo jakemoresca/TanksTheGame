@@ -1,0 +1,6022 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.nathang.tanks",
+    "projectFile": "C:\\projects\\Tanks\\game.json.autosave",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Tanks!",
+    "author": "Nathang",
+    "windowWidth": 1024,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": false
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_04.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_05.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_06.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_07.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Hulls_Color_A/Hull_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_08.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Weapon_Color_A/Gun_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Weapon_Color_A\\Gun_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Blocks/Block_A_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Blocks\\Block_A_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Light_Shell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Light_Shell.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/lightBullet-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\lightBullet-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Tiles/Ground_Tile_01_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Tiles\\Ground_Tile_01_A.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Tiles/Ground_Tile_01_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Tiles\\Ground_Tile_01_B.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_A.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_B.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_C.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_D.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_E.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_E.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_F.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_G.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_G.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tanks/PNG/Effects/Explosion_H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tanks\\PNG\\Effects\\Explosion_H.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/PNG/Decor_Items/Border_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\PNG\\Decor_Items\\Border_A.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/PNG/Decor_Items/Border_A-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\PNG\\Decor_Items\\Border_A-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Tiles/Ground_Tile_01_C.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Tiles\\Ground_Tile_01_C.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Blocks/Block_B_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Blocks\\Block_B_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Buildings/Building_A_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Buildings\\Building_A_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Decor_Tiles/Decor_Tile_B_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Decor_Tiles\\Decor_Tile_B_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Blocks/Block_A_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Blocks\\Block_A_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Objects/PNG/Decor_Items/Czech_Hdgehog_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Objects\\PNG\\Decor_Items\\Czech_Hdgehog_A.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Props/Flag_A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Props\\Flag_A.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Props/Flag_B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Props\\Flag_B.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Props/Platform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Props\\Platform.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Props/Barell_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Props\\Barell_01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tileset/PNG/Props/Tree_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tileset\\PNG\\Props\\Tree_04.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "name": "tankHull",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "upKey",
+          "value": "Up"
+        },
+        {
+          "name": "downKey",
+          "value": "Down"
+        },
+        {
+          "name": "leftKey",
+          "value": "Left"
+        },
+        {
+          "name": "rightKey",
+          "value": "Right"
+        },
+        {
+          "name": "fireKey",
+          "value": "/"
+        },
+        {
+          "name": "imageRotation",
+          "value": "270"
+        },
+        {
+          "name": "lastRotatedDirection",
+          "value": "\"UP\""
+        },
+        {
+          "name": "lastCompletedDirection",
+          "value": "\"UP\""
+        },
+        {
+          "name": "rotateWeaponClockwiseKey",
+          "value": "."
+        },
+        {
+          "name": "rotateWeaponCounterClockwiseKey",
+          "value": "/"
+        },
+        {
+          "name": "lastKeyPressed",
+          "value": ""
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Controls",
+          "type": "TankControls::Controls",
+          "hullWidth": 64,
+          "hullHeight": 64,
+          "weaponWidth": 32,
+          "weaponHeight": 64,
+          "weaponName": "tankWeapon"
+        },
+        {
+          "name": "Destructible",
+          "type": "TankControls::Destructible",
+          "health": 1
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "standard",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Tanks\\PNG\\Hulls_Color_A\\Hull_01.png",
+                  "points": [
+                    {
+                      "name": "weapon",
+                      "x": 128,
+                      "y": 175.385
+                    },
+                    {
+                      "name": "raycastTestLeft",
+                      "x": 48,
+                      "y": 0
+                    },
+                    {
+                      "name": "raycastTestRight",
+                      "x": 210,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45.4167,
+                        "y": 8.95833
+                      },
+                      {
+                        "x": 211.25,
+                        "y": 9.16667
+                      },
+                      {
+                        "x": 211.543,
+                        "y": 255.833
+                      },
+                      {
+                        "x": 44.4092,
+                        "y": 255.625
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tankWeapon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "hullId",
+          "value": "0"
+        },
+        {
+          "name": "lastRotatedDirection",
+          "value": "UP"
+        },
+        {
+          "name": "lastCompletedDirection",
+          "value": "UP"
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Tanks\\PNG\\Weapon_Color_A\\Gun_01.png",
+                  "points": [
+                    {
+                      "name": "bullet",
+                      "x": 48.5,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48.5,
+                    "y": 165
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48.5,
+                    "y": 164
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [
+    {
+      "name": "Destructibles",
+      "objects": [
+        {
+          "name": "border"
+        },
+        {
+          "name": "tankHull"
+        },
+        {
+          "name": "singleBlock"
+        },
+        {
+          "name": "doubleBlock"
+        },
+        {
+          "name": "invulnerableSingleBlock"
+        },
+        {
+          "name": "headquarters"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "MainScene",
+      "name": "MainScene",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.73
+      },
+      "objectsGroups": [
+        {
+          "name": "TankWeapons",
+          "objects": [
+            {
+              "name": "tankWeapon"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 96,
+          "y": 32,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 608,
+          "layer": "",
+          "locked": false,
+          "name": "ground",
+          "width": 1024,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "border",
+          "width": 1024,
+          "x": 0,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "border",
+          "width": 608,
+          "x": -288,
+          "y": 288,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "border",
+          "width": 608,
+          "x": 704,
+          "y": 288,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "border",
+          "width": 1024,
+          "x": 0,
+          "y": 576,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 96,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 160,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 128,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 896,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 864,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 832,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 896,
+          "y": 544,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "tankHull",
+          "width": 48,
+          "x": 128,
+          "y": 160,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "upKey",
+              "value": "w"
+            },
+            {
+              "name": "downKey",
+              "value": "s"
+            },
+            {
+              "name": "leftKey",
+              "value": "a"
+            },
+            {
+              "name": "rightKey",
+              "value": "d"
+            },
+            {
+              "name": "fireKey",
+              "value": "c"
+            },
+            {
+              "name": "rotateWeaponClockwiseKey",
+              "value": "e"
+            },
+            {
+              "name": "rotateWeaponCounterClockwiseKey",
+              "value": "q"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 48,
+          "layer": "",
+          "locked": false,
+          "name": "tankHull",
+          "width": 48,
+          "x": 896,
+          "y": 448,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "locked": false,
+          "name": "buildingGround",
+          "width": 224,
+          "x": 0,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "locked": false,
+          "name": "buildingGround",
+          "width": 224,
+          "x": 800,
+          "y": 288,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "buildingGround",
+          "width": 192,
+          "x": 320,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "buildingGround",
+          "width": 192,
+          "x": 512,
+          "y": 480,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 176,
+          "y": 48,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 832,
+          "y": 544,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 176,
+          "y": 272,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 928,
+          "y": 288,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 32,
+          "y": 288,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 128,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 784,
+          "y": 304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 784,
+          "y": 528,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 416,
+          "y": 384,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 608,
+          "y": 192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 576,
+          "y": 224,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 448,
+          "y": 352,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "headquarters",
+          "width": 64,
+          "x": 928,
+          "y": 512,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "headquarters",
+          "width": 64,
+          "x": 32,
+          "y": 32,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "groundBlock",
+          "width": 64,
+          "x": 32,
+          "y": 32,
+          "zOrder": 17,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "groundBlock",
+          "width": 64,
+          "x": 928,
+          "y": 512,
+          "zOrder": 17,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 224,
+          "y": 288,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 768,
+          "y": 288,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 32,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 128,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 96,
+          "y": 448,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 192,
+          "y": 448,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 896,
+          "y": 128,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 928,
+          "y": 128,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 800,
+          "y": 128,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 832,
+          "y": 128,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 304,
+          "y": 304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 656,
+          "y": 304,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 352,
+          "y": 96,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 448,
+          "y": 96,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 512,
+          "y": 480,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 608,
+          "y": 480,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 512,
+          "y": 192,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 480,
+          "y": 384,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 480,
+          "y": 256,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 544,
+          "y": 320,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 512,
+          "y": 288,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 464,
+          "y": 432,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "doubleBlock",
+          "width": 64,
+          "x": 528,
+          "y": 144,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 256,
+          "y": 544,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 736,
+          "y": 32,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 736,
+          "y": 64,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "invulnerableSingleBlock",
+          "width": 32,
+          "x": 256,
+          "y": 512,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 224,
+          "y": 480,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 768,
+          "y": 96,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 256,
+          "y": 480,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "groundLayer",
+          "locked": false,
+          "name": "singleBlock",
+          "width": 32,
+          "x": 736,
+          "y": 96,
+          "zOrder": 3,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "tankBullet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Bullet",
+              "type": "TankControls::Bullet",
+              "damage": 1,
+              "explosionObjectName": "explosion"
+            },
+            {
+              "name": "Destructible",
+              "type": "TankControls::Destructible",
+              "health": 1,
+              "invulnerable": false,
+              "armor": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "lightBullet",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tanks\\PNG\\Effects\\lightBullet-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 6,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 3
+                          },
+                          {
+                            "x": 2,
+                            "y": 3
+                          },
+                          {
+                            "x": 2,
+                            "y": 6
+                          },
+                          {
+                            "x": 10,
+                            "y": 6
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "singleBlock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Destructible",
+              "type": "TankControls::Destructible",
+              "health": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Tileset\\PNG\\Blocks\\Block_A_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7.5,
+                            "y": 6
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 6
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 126
+                          },
+                          {
+                            "x": 7.5,
+                            "y": 126
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Blocks\\Block_B_02.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Props\\Barell_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "ground",
+          "tags": "",
+          "texture": "assets\\Tileset\\PNG\\Tiles\\Ground_Tile_01_C.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "explosion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "fireExplosion",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.0333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_B.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_C.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_D.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_E.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_F.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_G.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tanks\\PNG\\Effects\\Explosion_H.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 129,
+                        "y": 129
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "border",
+          "tags": "",
+          "texture": "assets\\Objects\\PNG\\Decor_Items\\Border_A-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Destructible",
+              "type": "TankControls::Destructible",
+              "health": 1,
+              "invulnerable": true
+            }
+          ]
+        },
+        {
+          "name": "groundBlock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Buildings\\Building_A_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Props\\Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "height": 32,
+          "name": "buildingGround",
+          "tags": "",
+          "texture": "assets\\Tileset\\PNG\\Decor_Tiles\\Decor_Tile_B_05.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
+        },
+        {
+          "name": "doubleBlock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Destructible",
+              "type": "TankControls::Destructible",
+              "health": 4,
+              "invulnerable": false,
+              "armor": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Blocks\\Block_A_01.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "invulnerableSingleBlock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Destructible",
+              "type": "TankControls::Destructible",
+              "health": 5,
+              "invulnerable": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Objects\\PNG\\Decor_Items\\Czech_Hdgehog_A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "headquarters",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Destructible",
+              "type": "TankControls::Destructible",
+              "health": 10,
+              "invulnerable": true,
+              "armor": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "flagA",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Props\\Flag_A.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "flagB",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Tileset\\PNG\\Props\\Flag_B.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tank Setup",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "tankHull",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::SpawnTankWeapon"
+              },
+              "parameters": [
+                "",
+                "24",
+                "48",
+                "tankHull.PointX(\"weapon\")",
+                "tankHull.PointY(\"weapon\")",
+                "tankWeapon",
+                "tankHull",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tank Controls",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsUpKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::MoveTank"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                "\"UP\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsDownKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::MoveTank"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                "\"DOWN\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsLeftKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::MoveTank"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                "\"LEFT\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsRightKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::MoveTank"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                "\"RIGHT\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsFireKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "tankWeapon",
+                "tankHull"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::FireTankWeapon"
+              },
+              "parameters": [
+                "",
+                "tankWeapon",
+                "tankBullet",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsRotateWeaponClockwiseKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "tankWeapon",
+                "tankHull"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "const tankWeapon = objects[0];\nconst tweenBehavior = tankWeapon.getBehavior(\"Tween\");\nconst maxAngle = 360;\nconst rotationAmount = 90;\n\nif(tankWeapon.getAngle() == maxAngle)\n{\n    tankWeapon.rotateTowardAngle(maxAngle - Math.abs(tankWeapon.getAngle()), 0, runtimeScene);\n    tweenBehavior.addObjectAngleTween(\"isRotating\", tankWeapon.getAngle() + rotationAmount, \"linear\", 300, false);\n}\nelse if(tankWeapon.getAngle() < maxAngle)\n{\n    tweenBehavior.addObjectAngleTween(\"isRotating\", tankWeapon.getAngle() + rotationAmount, \"linear\", 300, false);\n}",
+              "parameterObjects": "tankWeapon",
+              "useStrict": true
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Controls::IsRotateWeaponCounterClockwiseKeyPressed"
+              },
+              "parameters": [
+                "tankHull",
+                "Controls",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "LinkedObjects::PickObjectsLinkedTo"
+              },
+              "parameters": [
+                "",
+                "tankWeapon",
+                "tankHull"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "const tankWeapon = objects[0];\nconst tweenBehavior = tankWeapon.getBehavior(\"Tween\");\nconst minAngle = 0;\nconst maxAngle = 360;\nconst rotationAmount = 90;\n\nif(tankWeapon.getAngle() == minAngle)\n{\n    tankWeapon.rotateTowardAngle(maxAngle - Math.abs(tankWeapon.getAngle()), 0, runtimeScene);\n    tweenBehavior.addObjectAngleTween(\"isRotating\", tankWeapon.getAngle() - rotationAmount, \"linear\", 300, false);\n}\nelse if(tankWeapon.getAngle() > minAngle)\n{\n    tweenBehavior.addObjectAngleTween(\"isRotating\", tankWeapon.getAngle() - rotationAmount, \"linear\", 300, false);\n}",
+              "parameterObjects": "tankWeapon",
+              "useStrict": true
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Tank Collision",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "tankHull",
+                "singleBlock",
+                "tankHull.PointY(\"Center\")",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "tankHull",
+                "singleBlock",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "tankHull",
+                "doubleBlock",
+                "tankHull.PointY(\"Center\")",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "tankHull",
+                "doubleBlock",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "tankHull",
+                "invulnerableSingleBlock",
+                "tankHull.PointY(\"Center\")",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "tankHull",
+                "invulnerableSingleBlock",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "tankHull",
+                "headquarters",
+                "tankHull.PointY(\"Center\")",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "tankHull",
+                "headquarters",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "tankHull",
+                "border",
+                "tankHull.PointY(\"Center\")",
+                "",
+                "no"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "tankHull",
+                "border",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Bullet Collision",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "tankBullet",
+                "Destructibles",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TankControls::Bullet::DealDamage"
+              },
+              "parameters": [
+                "tankBullet",
+                "Bullet",
+                "Destructibles",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Explosion",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "explosion"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "explosion",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "groundLayer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "weaponLayer",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Bullet",
+          "type": "TankControls::Bullet"
+        },
+        {
+          "name": "Controls",
+          "type": "TankControls::Controls"
+        },
+        {
+          "name": "Destructible",
+          "type": "TankControls::Destructible"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "Tank Controls",
+      "name": "TankControls",
+      "shortDescription": "",
+      "tags": "",
+      "version": "1.0",
+      "eventsFunctions": [
+        {
+          "description": "Spawn tank's weapon",
+          "fullName": "Spawn Tank Weapon",
+          "functionType": "Action",
+          "name": "SpawnTankWeapon",
+          "sentence": "Spawn _PARAM5_ as Tank's weapon with dimension of _PARAM1_ x _PARAM2_ on _PARAM3_ - _PARAM4_ and link it with _PARAM6_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Weapon",
+                    "GetArgumentAsNumber(\"spawnLocationX\")",
+                    "GetArgumentAsNumber(\"spawnLocationY\")",
+                    "\"weaponLayer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Weapon",
+                    "hullObject"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "Weapon",
+                    "=",
+                    "GetArgumentAsNumber(\"weaponHeight\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangeWidth"
+                  },
+                  "parameters": [
+                    "Weapon",
+                    "=",
+                    "GetArgumentAsNumber(\"weaponWidth\")"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Weapon",
+                    "hullId",
+                    "=",
+                    "hullObject.Variable(tankId)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Weapon's width",
+              "name": "weaponWidth",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Weapon's height",
+              "name": "weaponHeight",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "X coordinates for spawning weapon",
+              "name": "spawnLocationX",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Y coordinates for spawning weapon",
+              "name": "spawnLocationY",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Weapon Object",
+              "name": "weaponObject",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Hull Object",
+              "name": "hullObject",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": [
+            {
+              "name": "Weapon",
+              "objects": [
+                {
+                  "name": "weaponObject"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "description": "Update weapon's position",
+          "fullName": "Update Tank Weapon position",
+          "functionType": "Action",
+          "name": "UpdateTankWeaponPosition",
+          "sentence": "Update _PARAM1_ position to _PARAM2_ x _PARAM3_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "weapon",
+                    "=",
+                    "GetArgumentAsNumber(\"locationX\")",
+                    "=",
+                    "GetArgumentAsNumber(\"locationY\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "type of weapon to update",
+              "name": "weapon",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "updated X location",
+              "name": "locationX",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Updated Y location",
+              "name": "locationY",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Fire tank's weapon",
+          "fullName": "Fire Tank Weapon",
+          "functionType": "Action",
+          "name": "FireTankWeapon",
+          "sentence": "Fire _PARAM1_'s _PARAM2_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "bulletObject",
+                    "weaponObject.PointX(\"bullet\")",
+                    "weaponObject.PointY(\"bullet\")",
+                    "\"groundLayer\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "bulletObject",
+                    "weaponObject.Angle()",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "bulletObject",
+                    "weaponObject.Angle() - 90",
+                    "300",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Tank's Weapon ",
+              "name": "weaponObject",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Weapon's bullet",
+              "name": "bulletObject",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Rotate tank weapon to desired direction",
+          "fullName": "Rotate Tank Weapon",
+          "functionType": "Action",
+          "name": "RotateTankWeapon",
+          "sentence": "Rotate _PARAM1_ to _PARAM2_",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "<",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        ">",
+                        "360"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "RotateTowardAngle"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "360 - abs(tankWeapon.Angle())",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"direction\")",
+                    "=",
+                    "\"CLOCKWISE\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"RIGHT\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"RIGHT\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "180",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"RIGHT\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"UP\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"UP\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "90",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"UP\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"DOWN\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"DOWN\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "270",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"DOWN\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"LEFT\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"LEFT\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "360",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"LEFT\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "StrEqual"
+                  },
+                  "parameters": [
+                    "GetArgumentAsString(\"direction\")",
+                    "=",
+                    "\"COUNTERCLOCKWISE\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"RIGHT\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"RIGHT\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "360",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"RIGHT\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"UP\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"UP\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "270",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"UP\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"DOWN\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"DOWN\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "90",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"DOWN\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "tankWeapon.VariableString(lastRotatedDirection)",
+                            "=",
+                            "\"LEFT\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "tankWeapon",
+                            "lastCompletedDirection",
+                            "=",
+                            "\"LEFT\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "180",
+                        "30",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "lastRotatedDirection",
+                        "=",
+                        "\"LEFT\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "=",
+                    "180"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "lastCompletedDirection",
+                    "=",
+                    "\"DOWN\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "360"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "lastCompletedDirection",
+                    "=",
+                    "\"UP\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "=",
+                    "90"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "lastCompletedDirection",
+                    "=",
+                    "\"RIGHT\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Angle"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "=",
+                    "270"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "lastCompletedDirection",
+                    "=",
+                    "\"LEFT\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "360"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "270"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "180"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "90"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "isRotating",
+                    "=",
+                    "\"\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "360"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "270"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "180"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "tankWeapon",
+                        "=",
+                        "90"
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "tankWeapon",
+                    "isRotating",
+                    "=",
+                    "GetArgumentAsString(\"direction\")"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": [
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "Tank weapon to rotate",
+              "name": "tankWeapon",
+              "optional": false,
+              "supplementaryInformation": "Sprite",
+              "type": "objectList"
+            },
+            {
+              "codeOnly": false,
+              "defaultValue": "",
+              "description": "CLOCKWISE, COUNTERCLOCKWISE",
+              "name": "direction",
+              "optional": false,
+              "supplementaryInformation": "",
+              "type": "string"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Implement tank movements, weapon controls, etc.",
+          "fullName": "Tank Controls",
+          "name": "Controls",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "Is up key pressed",
+              "functionType": "Condition",
+              "name": "IsUpKeyPressed",
+              "sentence": "Returns true if key up was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(upKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "Object.VariableString(upKey)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "Object.VariableString(upKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(upKey)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is left key pressed",
+              "functionType": "Condition",
+              "name": "IsLeftKeyPressed",
+              "sentence": "Returns true if key left was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(leftKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "Object.VariableString(leftKey)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "Object.VariableString(leftKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(leftKey)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is right key pressed",
+              "functionType": "Condition",
+              "name": "IsRightKeyPressed",
+              "sentence": "Returns true if key right was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(rightKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "Object.VariableString(rightKey)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "Object.VariableString(rightKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(rightKey)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is down key pressed",
+              "functionType": "Condition",
+              "name": "IsDownKeyPressed",
+              "sentence": "Returns true if key down was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(downKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "Object.VariableString(downKey)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Object",
+                            "lastKeyPressed",
+                            "=",
+                            "\"\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "Object.VariableString(downKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(downKey)"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Object",
+                        "lastKeyPressed",
+                        "=",
+                        "\"\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is fire key pressed",
+              "functionType": "Condition",
+              "name": "IsFireKeyPressed",
+              "sentence": "Returns true if fire key was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(fireKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"fireTimer\"",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"fireTimer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is rotate weapon clockwise key pressed",
+              "functionType": "Condition",
+              "name": "IsRotateWeaponClockwiseKeyPressed",
+              "sentence": "Returns true if rotate weapon clockwise key was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(rotateWeaponClockwiseKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"rotateTimer\"",
+                        "0.5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"rotateTimer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "Is rotate weapon counter clockwise key pressed",
+              "functionType": "Condition",
+              "name": "IsRotateWeaponCounterClockwiseKeyPressed",
+              "sentence": "Returns true if rotate weapon counter clockwise key was pressed on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Object.VariableString(rotateWeaponCounterClockwiseKey)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"rotateTimer\"",
+                        "0.5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"rotateTimer\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Move tank",
+              "fullName": "Move Tank",
+              "functionType": "Action",
+              "name": "MoveTank",
+              "sentence": "Move _PARAM0_ _PARAM2_ and any object linked to it",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "const tankHull = objects[0];\nconst direction = eventsFunctionContext.getArgument(\"direction\");\n\nconst tweenBehavior = tankHull.getBehavior(\"Tween\");\nconst tankControlBehavior = tankHull.getBehavior(\"Controls\");\n\nconst tankWeapon = gdjs.LinksManager.getManager(runtimeScene).getObjectsLinkedWith(tankHull)[0];\nconst tankWeaponTweenBehavior = tankWeapon.getBehavior(\"Tween\");\n\nconst tankHulls = runtimeScene.getObjects(tankHull.name);\nconst raycastRange = 10;\n\nswitch (direction) {\n    case \"UP\":\n        var targetAngle = 0;\n\n        if (tankHull.getAngle() == targetAngle) {\n            let hasUpCollision = tankControlBehavior.HasCollision(\"tankHull\", \n                0,\n                -raycastRange);\n\n            if(!hasUpCollision)\n                tankHull.addForce(0, -60, 0);\n        }\n        else if (tankHull.getAngle() != targetAngle && !tweenBehavior.isPlaying(\"isRotating\")) {\n            var tankHullAngle = tankHull.getAngle() == 0 ? 360 : tankHull.getAngle();\n            var tankWeaponAngle = tankWeapon.getAngle() == 0 ? 360 : tankWeapon.getAngle();\n            var weaponHullAngleDifference = tankWeaponAngle - tankHullAngle;\n\n            tankHull.setAngle(targetAngle);\n            //tweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n\n            switch (weaponHullAngleDifference) {\n                case 0:\n                case 360:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n                    break;\n                case -270:\n                case 90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 90, \"linear\", 100, false);\n                    break;\n                case 270:\n                case -90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 270, \"linear\", 100, false);\n                    break;\n                case 180:\n                case -180:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 180, \"linear\", 100, false);\n                    break;\n            }\n        }\n        break;\n\n    case \"LEFT\":\n        var targetAngle = 270;\n\n        if (tankHull.getAngle() == targetAngle) {\n            let hasLeftCollision = tankControlBehavior.HasCollision(\"tankHull\", \n                -raycastRange,\n                0);\n\n            if(!hasLeftCollision)\n                tankHull.addForce(-60, 0, 0);\n        }\n        else if (tankHull.getAngle() != targetAngle && !tweenBehavior.isPlaying(\"isRotating\")) {\n            var tankHullAngle = tankHull.getAngle() == 0 ? 360 : tankHull.getAngle();\n            var tankWeaponAngle = tankWeapon.getAngle() == 0 ? 360 : tankWeapon.getAngle();\n            var weaponHullAngleDifference = tankWeaponAngle - tankHullAngle;\n\n            tankHull.setAngle(targetAngle);\n            //tweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n\n            switch (weaponHullAngleDifference) {\n                case 0:\n                case 360:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n                    break;\n                case -270:\n                case 90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 0, \"linear\", 100, false);\n                    break;\n                case 270:\n                case -90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 180, \"linear\", 100, false);\n                    break;\n                case 180:\n                case -180:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 90, \"linear\", 100, false);\n                    break;\n            }\n        }\n        break;\n\n    case \"DOWN\":\n        var targetAngle = 180;\n\n        if (tankHull.getAngle() == targetAngle) {\n            let hasDownCollision = tankControlBehavior.HasCollision(\"tankHull\", \n                0,\n                raycastRange);\n\n            if(!hasDownCollision)\n                tankHull.addForce(0, 60, 0);\n        }\n        else if (tankHull.getAngle() != targetAngle && !tweenBehavior.isPlaying(\"isRotating\")) {\n            var tankHullAngle = tankHull.getAngle() == 0 ? 360 : tankHull.getAngle();\n            var tankWeaponAngle = tankWeapon.getAngle() == 0 ? 360 : tankWeapon.getAngle();\n            var weaponHullAngleDifference = tankWeaponAngle - tankHullAngle;\n\n            tankHull.setAngle(targetAngle);\n            //tweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n\n            switch (weaponHullAngleDifference) {\n                case 0:\n                case 360:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n                    break;\n                case -270:\n                case 90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 270, \"linear\", 100, false);\n                    break;\n                case 270:\n                case -90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 90, \"linear\", 100, false);\n                    break;\n                case 180:\n                case -180:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 0, \"linear\", 100, false);\n                    break;\n            }\n        }\n        break;\n\n    case \"RIGHT\":\n        var targetAngle = 90;\n\n        if (tankHull.getAngle() == targetAngle) {\n            let hasRightCollision = tankControlBehavior.HasCollision(\"tankHull\", \n                raycastRange,\n                0);\n\n            if(!hasRightCollision)\n                tankHull.addForce(60, 0, 0);\n        }\n        else if (tankHull.getAngle() != targetAngle && !tweenBehavior.isPlaying(\"isRotating\")) {\n            var tankHullAngle = tankHull.getAngle() == 0 ? 360 : tankHull.getAngle();\n            var tankWeaponAngle = tankWeapon.getAngle() == 0 ? 360 : tankWeapon.getAngle();\n            var weaponHullAngleDifference = tankWeaponAngle - tankHullAngle;\n\n            tankHull.setAngle(targetAngle);\n            //tweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n\n            switch (weaponHullAngleDifference) {\n                case 0:\n                case 360:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", targetAngle, \"linear\", 100, false);\n                    break;\n                case -270:\n                case 90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 180, \"linear\", 100, false);\n                    break;\n                case 270:\n                case -90:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 0, \"linear\", 100, false);\n                    break;\n                case 180:\n                case -180:\n                    tankWeaponTweenBehavior.addObjectAngleTween(\"isRotating\", 270, \"linear\", 100, false);\n                    break;\n            }\n        }\n        break;\n}\n\ntankWeapon.setPosition(tankHull.getPointX(\"weapon\"), tankHull.getPointY(\"weapon\"));",
+                  "parameterObjects": "Object",
+                  "useStrict": true
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "LEFT, RIGHT, UP, DOWN",
+                  "name": "direction",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "string"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Destroy tank weapon",
+              "fullName": "Destroy Tank Weapon",
+              "functionType": "Action",
+              "name": "DestroyTankWeapon",
+              "sentence": "Destroy _PARAM0_'s weapon",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "const tankHull = objects[0];\nconst tankWeapon = gdjs.LinksManager.getManager(runtimeScene).getObjectsLinkedWith(tankHull)[0];\n\ntankWeapon.deleteFromScene(runtimeScene);\n//tankHull.deleteFromScene(runtimeScene);",
+                  "parameterObjects": "Object",
+                  "useStrict": true
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Will the tank collide on the specified point",
+              "fullName": "Has Collide",
+              "functionType": "Condition",
+              "name": "HasCollision",
+              "sentence": "Will the _PARAM0_ collide with _PARAM2_ on _PARAM3_ and _PARAM4_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "const tankHull = objects[0];\nconst objectName = eventsFunctionContext.getArgument(\"objectName\");\nconst targetX = eventsFunctionContext.getArgument(\"targetX\");\nconst targetY = eventsFunctionContext.getArgument(\"targetY\");\nconst raycastRange = 10;\nconst objectsToCheck = runtimeScene.getObjects(objectName);\nlet hasCollision = false; \n\nfor (var raycastCounter = 0; raycastCounter < objectsToCheck.length; raycastCounter++) {\n    if (objectsToCheck[raycastCounter] == tankHull)\n        continue;\n\n    const raycastLeftResult = objectsToCheck[raycastCounter].isCollidingWithPoint(\n        tankHull.getPointX(\"raycastTestLeft\") + targetX, \n        tankHull.getPointY(\"raycastTestLeft\") + targetY);\n\n    const raycastRightResult = objectsToCheck[raycastCounter].isCollidingWithPoint(\n        tankHull.getPointX(\"raycastTestRight\") + targetX, \n        tankHull.getPointY(\"raycastTestRight\") + targetY);\n\n    if (raycastLeftResult || raycastRightResult) {\n        hasCollision = true;\n        break;\n    }\n}\n\neventsFunctionContext.returnValue = hasCollision;",
+                  "parameterObjects": "Object",
+                  "useStrict": true
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object name to check",
+                  "name": "objectName",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "string"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Raycast distance on X-axis",
+                  "name": "targetX",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Raycast distance on Y-axis",
+                  "name": "targetY",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDestroy",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TankControls::Controls::DestroyTankWeapon"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Controls",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "64",
+              "type": "Number",
+              "label": "Tank's width",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Width"
+            },
+            {
+              "value": "64",
+              "type": "Number",
+              "label": "Tank's height",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Height"
+            }
+          ]
+        },
+        {
+          "description": "A desctructible object will provide a way to track the health, destroy animation in one place.",
+          "fullName": "Destructible",
+          "name": "Destructible",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Reduce health based on amount of damage",
+              "fullName": "Take Damage",
+              "functionType": "Action",
+              "name": "TakeDamage",
+              "sentence": "Take _PARAM2_ damage to _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TankControls::Destructible::Propertyinvulnerable"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TankControls::Destructible::SetPropertyhealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "-",
+                        "GetArgumentAsNumber(\"damage\") - Object.Behavior::Propertyarmor()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TankControls::Destructible::IsDead"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Destructible",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Number of damage. Negative values will treat as heal instead.",
+                  "name": "damage",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Returns true when health reaches below 1",
+              "fullName": "Is dead",
+              "functionType": "Condition",
+              "name": "IsDead",
+              "sentence": "_PARAM0_ is dead",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TankControls::Destructible::Propertyhealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "<",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TankControls::Destructible::Propertyhealth"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ">",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "False"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Destructible",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Health of the object",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "health"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Does damage cannot take effect on the object",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "invulnerable"
+            },
+            {
+              "value": "0",
+              "type": "Number",
+              "label": "Amount of armor to deduct from damage taken",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "armor"
+            }
+          ]
+        },
+        {
+          "description": "",
+          "fullName": "",
+          "name": "Bullet",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "Get amount of damage / heal",
+              "fullName": "Get Damage Amount",
+              "functionType": "Expression",
+              "name": "GetDamageAmount",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::Propertydamage()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Bullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Get explosion object name",
+              "fullName": "Get Explosion Object Name",
+              "functionType": "StringExpression",
+              "name": "GetExplosionObjectName",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyexplosionObjectName()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Bullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Get explosion width",
+              "fullName": "Get Explosion Width",
+              "functionType": "Expression",
+              "name": "GetExplosionWidth",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyexplosionWidth()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Bullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Get explosion width",
+              "fullName": "Get Explosion Width",
+              "functionType": "Expression",
+              "name": "GetExplosionHeight",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyexplosionHeight()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Bullet",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Deal damage",
+              "fullName": "Deal Damage",
+              "functionType": "Action",
+              "name": "DealDamage",
+              "sentence": "Deal damage to _PARAM2_ based on damage amount on _PARAM0_",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": "const tankBullet = objects[0];\nconst bulletBehavior = tankBullet.getBehavior(\"Bullet\");\nconst damageAmount = bulletBehavior.GetDamageAmount();\nconst explosionName = bulletBehavior.GetExplosionObjectName();\nconst explosionWidth = bulletBehavior.GetExplosionWidth();\nconst explosionHeight = bulletBehavior.GetExplosionHeight();\nconst destructibleBehavior = tankBullet.getBehavior(\"Destructible\");\n\nconst targetObjects = eventsFunctionContext.getObjects(\"targetObject\");\n\ntargetObjects.forEach(targetObject => \n{\n    const targetObjectDestructibleBehavior = targetObject.getBehavior(\"Destructible\");\n    targetObjectDestructibleBehavior.TakeDamage(damageAmount);\n});\n\ndestructibleBehavior.TakeDamage(1);\n\nconst explosion = runtimeScene.createObject(explosionName);\nexplosion.setLayer(\"groundLayer\");\nexplosion.setPosition(tankBullet.getX(), tankBullet.getY());\nexplosion.setHeight(explosionHeight);\nexplosion.setWidth(explosionWidth);",
+                  "parameterObjects": "Object",
+                  "useStrict": true
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "TankControls::Bullet",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Target object to receive damage",
+                  "name": "targetObject",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "objectList"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Amount of damage when collide with destructible",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "damage"
+            },
+            {
+              "value": "explosion",
+              "type": "String",
+              "label": "Explosion object name to create upon collision",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "explosionObjectName"
+            },
+            {
+              "value": "64",
+              "type": "Number",
+              "label": "Explosion width",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "explosionWidth"
+            },
+            {
+              "value": "64",
+              "type": "Number",
+              "label": "Explosion height",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "explosionHeight"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
